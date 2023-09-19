@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/added"
+            android:title="Donation List" />
+        <item
+            android:id="@+id/add_donation"
+            android:icon="@drawable/ads"
+            android:title="Add Donation" />
+        <item
+            android:id="@+id/add_food"
+            android:icon="@drawable/aaa"
+            android:title="Add Food List" />
+        <item
+            android:id="@+id/add_compliant"
+            android:icon="@drawable/complaints"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/add_review"
+            android:icon="@drawable/aview"
+            android:title="Reviews"/>
+    </group>
+    <group android:id="@+id/his_move" android:checkableBehavior="single">
+        <item
+            android:id="@+id/View_request"
+            android:icon="@drawable/don"
+            android:title="Donation Request"/>
+
+        <item
+            android:id="@+id/food_request"
+            android:icon="@drawable/staff"
+            android:title="Food Request"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/trai"
+            android:title="Search Items"/>
+        <item
+            android:id="@+id/preference"
+            android:icon="@drawable/donation"
+            android:title="preference"/>
+
+    </group>
+
+</menu>

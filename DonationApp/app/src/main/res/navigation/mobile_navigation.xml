@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.donationapp.DHome.ViewDonationList"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_donation_list" />
+
+    <fragment
+        android:id="@+id/add_donation"
+        android:name="com.example.donationapp.DHome.AddDonation"
+        android:label="Add Donation"
+        tools:layout="@layout/fragment_add_donation" />
+
+    <fragment
+        android:id="@+id/add_food"
+        android:name="com.example.donationapp.DHome.AddFooditem"
+        android:label="Add Food List"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/add_compliant"
+        android:name="com.example.donationapp.DHome.AddCompliants"
+        android:label="Complaint"
+        tools:layout="@layout/fragment_add_compliants" />
+    <fragment
+        android:id="@+id/add_review"
+        android:name="com.example.donationapp.DHome.AddReviws"
+        android:label="Add Review"
+        tools:layout="@layout/fragment_add_reviws" />
+<!--    //-->
+    <fragment
+        android:id="@+id/View_request"
+        android:name="com.example.donationapp.DHome.ViewMyRequest"
+        android:label="Donation Request"
+        tools:layout="@layout/my_request_list" />
+    <fragment
+        android:id="@+id/food_request"
+        android:name="com.example.donationapp.DHome.Food_Request"
+        android:label="Food Request"
+        tools:layout="@layout/fragment_food__request" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.donationapp.DHome.SearchData"
+        android:label="Search Items"
+        tools:layout="@layout/search_data" />
+    <fragment
+        android:id="@+id/preference"
+        android:name="com.example.donationapp.DHome.preference"
+        android:label="preference"
+        tools:layout="@layout/fragment_preference" />
+</navigation>

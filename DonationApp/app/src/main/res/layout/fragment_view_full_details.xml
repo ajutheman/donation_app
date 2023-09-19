@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gl="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardElevation="11dp"
+        android:gravity="center_vertical|center_horizontal"
+        app:cardBackgroundColor="@color/white"
+        android:elevation="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imagid"
+            android:src="@drawable/btnback"
+            />
+        <LinearLayout
+            android:layout_marginTop="320dp"
+            android:orientation="horizontal"
+            android:id="@+id/datavalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/firstid"
+                android:text="Name"
+                android:layout_margin="3dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/appsecond"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/secondid"
+                android:layout_weight="0.5"
+                android:text="Category"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/appsecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="350dp"
+            android:orientation="horizontal"
+            android:id="@+id/ddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/thirdid"
+                android:text="Name"
+                android:textColor="#AF9F13"
+                android:layout_margin="13dp"
+                android:textStyle="bold"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="405dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Donation Details"
+            />
+
+        <View
+            android:layout_marginTop="430dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_height="4dp"/>
+
+        <TextView
+            android:layout_marginTop="450dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textStyle="italic"
+            android:letterSpacing="0.1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/fiveid"
+            />
+
+        <ImageView
+            android:layout_marginTop="480dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="end"
+            android:id="@+id/tracking"
+            android:padding="20dp"
+            android:src="@drawable/baseline_location_on_24"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
