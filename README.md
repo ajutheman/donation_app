@@ -1,2 +1,2 @@
 # donation_app
-colloge_progect
+colloge_project
